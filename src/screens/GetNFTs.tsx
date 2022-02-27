@@ -10,7 +10,7 @@ const {
   metadata: { Metadata },
 } = programs;
 
-const SendLamport = () => {
+const GetNFTs = () => {
   const [lamportBal, setlamportBal] = useState<number>(0);
   const [imageData, setimageData] = useState<any | null>();
   const [imageMetaData, setimageMetaData] = useState<any | null>();
@@ -88,4 +88,4 @@ const SendLamport = () => {
   );
 };
 
-export default SendLamport;
+export default GetNFTs;
